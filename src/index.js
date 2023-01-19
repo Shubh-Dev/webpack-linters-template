@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import './style.css';
-import MAT from './MAT.png';
+// import MAT from './MAT.png';
 
 
 function component() {
@@ -11,10 +11,15 @@ function component() {
     element.classList.add('hello');
 
       // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = MAT;
+  // const myIcon = new Image();
+  // myIcon.src = MAT;
 
-  element.appendChild(myIcon);
+  // element.appendChild(myIcon);
+  const root = document.querySelector(".root")
+
+const sentence = document.createElement('p');
+sentence.textContent="Webpack config complete"
+sentence.classList.add('hello');
 
   
     return element;
