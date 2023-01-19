@@ -1,0 +1,2 @@
+# webpack-linters-template
+Template
